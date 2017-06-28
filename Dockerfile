@@ -1,5 +1,6 @@
 FROM debian:9.0
-MAINTAINER Edaurdo Pinuaga <info@did-web.com>
+
+MAINTAINER Eduardo Pinuaga <info@did-web.com>
 
 RUN apt-get update && \
     apt-get install -y apache2 && \
